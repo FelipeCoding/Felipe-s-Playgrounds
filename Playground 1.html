@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My HTML proyect</title>
+    <link rel="icon" href="img/html-5.png">
+    <style>
+        body {
+            /*this affects everything*/
+            background-color: #49BEAA;
+            color: #ffffff;
+            /*this is the color for the text*/
+            font-family: montserrat;
+            font-size: 12px;
+            line-height: 1.5;
+            /*this is the height separating the lines*/
+        }
+
+        main {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            /*this controls the space at each side of the content*/
+            max-width: 800px;
+        }
+
+        a {
+            /*this is for the links*/
+            color: #EEB868;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            /*font thickness*/
+        }
+
+        a:hover {
+            /*this is for when you hover over the link*/
+            color: #EF767A;
+            font-weight: 800;
+        }
+
+        article {
+            /*this contains items in a box*/
+            background-color: #456990;
+            border-width: 2px;
+            /*this is for the outer rim of the article*/
+            border-style: solid;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            /*the safe distance from the bottom of the page*/
+            padding: 20px;
+            /*internal padding*/
+            border-color: #EEB868;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            /*the order is width, height, and blur, the last number of the color is alpha for the opacity*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article>
+            <h1>My First HTML proyect</h1>
+            <p>This is a paragraph</p>
+            <button><strong>Button</strong></button>
+            <p>That button has <strong>bold</strong> letters</p>
+            <button>Another button</button>
+
+            <h3>This title is a little smaller</h3>
+            <p>This word is written in <em>italics</em></p>
+            <p>In this paragraph there is a break <br> and this is a break </p>
+            <a href="https://www.google.com/">This is a link to Google</a>
+
+            <p>In this paragraph I'm just writing a bunch of random stuff, just to check out how the margins and the paddings work in the main. I need a lot of text so that it can stretch all the way across the website.</p>
+            <h2>this area shows inputs</h2>
+            <input placeholder="Username">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <input type="range">
+            <br>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+
+            <img src="https://www.sciencenews.org/wp-content/uploads/2019/07/072319_ee_cat-allergy_feat.jpg" width="500">
+            <!-- Creating lists -->
+            <p>Now this is an ordered list</p>
+            <ol>
+                <li>Thing 1</li>
+                <li>Thing 2</li>
+                <li>Thing 3</li>
+            </ol>
+            <p>And this is an unordered list</p>
+            <ul>
+                <li>Thing 1</li>
+                <li>Thing 2</li>
+                <li>Thing 3</li>
+            </ul>
+        </article>
+    </main>
+</body>
+
+</html>
